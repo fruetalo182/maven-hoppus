@@ -23,7 +23,7 @@ jobs:
       uses: fruetalo182/github-workflows-templates/.github/workflows/linter-java.yaml@main
       secrets: inherit
 
-  build:
+  build-push-ghcr:
     needs: execute-lint
     runs-on: ubuntu-latest
     if: github.event_name == 'push'
