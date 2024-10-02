@@ -1,4 +1,4 @@
 /**
- * This package contains the application's tests.
+ * Application's tests.
  */
 package com.example;

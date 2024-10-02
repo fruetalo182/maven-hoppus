@@ -21,7 +21,7 @@ public class ApplicationTests {
     private MockMvc mockMvc;
 
     /**
-     * Test the hello endpoint to ensure it returns the expected greeting message.
+     * Test endpoint to ensure it returns the expected message.
      * 
      * @throws Exception if the request to the endpoint fails
      */

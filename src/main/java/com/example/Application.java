@@ -17,7 +17,7 @@ public class Application {
     /**
      * Main method to run the Spring Boot application.
      *
-     * @param args command-line arguments, marked as final to indicate that they should not be modified.
+     * @param args command-line arguments.
      */
     public static void main(final String[] args) {
         SpringApplication.run(Application.class, args);
