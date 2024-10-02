@@ -5,25 +5,24 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.test.web.servlet.MockMvc;
-
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-/**
- * ApplicationTests contains the integration tests for the application.
- */
 @SpringBootTest
 @AutoConfigureMockMvc
 public class ApplicationTests {
 
+    /**
+     * MockMvc instance used to perform HTTP requests in tests.
+     */
     @Autowired
     private MockMvc mockMvc;
 
     /**
-     * Test endpoint to ensure it returns the expected message.
+     * Ensure it returns a 200 status and the correct content.
      *
-     * @throws Exception if the request to the endpoint fails
+     * @throws Exception if the request fails
      */
     @Test
     public void testHelloEndpoint() throws Exception {
