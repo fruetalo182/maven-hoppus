@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * Main application class for the Spring Boot application.
- * 
+ *
  * This class serves as the entry point for the application.
  */
 @SpringBootApplication

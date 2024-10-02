@@ -22,7 +22,7 @@ public class ApplicationTests {
 
     /**
      * Test endpoint to ensure it returns the expected message.
-     * 
+     *
      * @throws Exception if the request to the endpoint fails
      */
     @Test
