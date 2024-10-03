@@ -65,6 +65,11 @@ jobs:
           ghcr.io/${{ github.repository }}:latest
           ghcr.io/${{ github.repository }}:v${{ env.MAJOR_V }}.${{ env.MINOR_V }}.${{ env.PATCH_V }}-${{ github.run_number }}
 
+    - name: Create Tag
+      run: |
+        git tag v${{ env.MAJOR_V }}.${{ env.MINOR_V }}.${{ env.PATCH_V }}
+        git push origin v${{ env.MAJOR_V }}.${{ env.MINOR_V }}.${{ env.PATCH_V }}
+
     - name: Release .jar artifact
       uses: softprops/action-gh-release@v2
       with:
