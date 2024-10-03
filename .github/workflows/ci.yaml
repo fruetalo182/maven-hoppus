@@ -78,5 +78,5 @@ jobs:
     - name: Release .jar artifact
       uses: softprops/action-gh-release@v2
       with:
-        files: java-web-app-1.0-SNAPSHOT.jar
+        files: target/java-web-app-1.0-SNAPSHOT.jar
         tag_name: v${{ env.MAJOR_V }}.${{ env.MINOR_V }}.${{ env.PATCH_V }}-${{ github.run_number }}
