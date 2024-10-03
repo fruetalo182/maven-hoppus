@@ -11,7 +11,7 @@ on:
 env:
   MAJOR_V: 0
   MINOR_V: 0
-  PATCH_V: 1
+  PATCH_V: 2
 
 permissions:
   contents: write
@@ -71,9 +71,6 @@ jobs:
       run: |
         git tag v${{ env.MAJOR_V }}.${{ env.MINOR_V }}.${{ env.PATCH_V }}-${{ github.run_number }}
         git push origin v${{ env.MAJOR_V }}.${{ env.MINOR_V }}.${{ env.PATCH_V }}-${{ github.run_number }}
-
-    - name: List files in target directory
-      run: ls -al target/
 
     - name: Release .jar artifact
       uses: softprops/action-gh-release@v2
