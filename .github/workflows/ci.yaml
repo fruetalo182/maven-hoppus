@@ -72,8 +72,8 @@ jobs:
         git tag v${{ env.MAJOR_V }}.${{ env.MINOR_V }}.${{ env.PATCH_V }}-${{ github.run_number }}
         git push origin v${{ env.MAJOR_V }}.${{ env.MINOR_V }}.${{ env.PATCH_V }}-${{ github.run_number }}
 
-    - name: Wait for Tag to Register
-      run: sleep 5
+    - name: List files in target directory
+      run: ls -al target/
 
     - name: Release .jar artifact
       uses: softprops/action-gh-release@v2
