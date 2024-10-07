@@ -1,9 +1,11 @@
 
 
 <div align="left">
-    
+
+![Hoppus](src/main/resources/mark.png)
+
 <h1>Maven Hoppus</h1>
-    
+
   [![CI Status](https://img.shields.io/github/actions/workflow/status/fruetalo182/maven-hoppus/ci.yaml?branch=main&label=CI%20Status)](https://github.com/fruetalo182/maven-hoppus/actions/workflows/ci.yaml)
   
   ![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white)
