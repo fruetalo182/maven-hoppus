@@ -13,8 +13,6 @@
   ![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat&logo=apachemaven&logoColor=white)
   ![REST API](https://img.shields.io/badge/REST%20API-00BFFF?style=flat&logo=api&logoColor=white)
   ![JUnit](https://img.shields.io/badge/JUnit-25A162?style=flat&logo=junit&logoColor=white)
-  ![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat&logo=spring&logoColor=white)
-
 
 </div>
 
