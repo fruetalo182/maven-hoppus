@@ -18,7 +18,7 @@
 
 </div>
 
-```Maven Hoppus``` is one of the three pieces deployed on ```cluster182```
+```Maven Hoppus``` is one of the three members deployed on ```cluster182```
 
 ## 📋 Requirements
 
